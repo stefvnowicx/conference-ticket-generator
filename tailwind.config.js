@@ -4,7 +4,7 @@ module.exports = {
    ],
    theme: {
       extend: {
-
+fontFamily: ["Inconsolata", "sans-serif"]
       },
    },
    plugins: [],
