@@ -1,2 +1,11 @@
 @import "tailwindcss";
 @config "./tailwind.config.js";
+
+/** Text Gradient Example */ 
+.text-gradient {
+    color: #ff8888; 
+    background-image: linear-gradient(45deg, #ff8888 38%, #ffbfbf 61%); 
+    background-clip: text; 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+   }
